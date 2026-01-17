@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trend Watch Store</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<style>
+  
+@media (max-width: 768px) {
+
+  /* Navbar */
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 5%;
+  }
+
+  .ul-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 26px;
+  }
+
+  /* Hero Section */
+  .hero h1 {
+    font-size: 35px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* About Section */
+  #about {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .about-img {
+    width: 90%;
+    padding-left: 0;
+  }
+
+  .about-text h1 {
+    font-size: 35px;
+  }
+  .about-text p {
+    font-size: 16px;
+  }
+
+  /* Shop Section */
+  .card {
+    flex-basis: 80%;
+  }
+
+  .card img {
+    height: 250px;
+  }
+
+  #shop h1 {
+    font-size: 35px;
+  }
+
+  /* Contact Section */
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cform,
+  .location {
+    width: 90%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+</style>
+
+
+<body>
+  <!-- NavBar -->
+  <nav>
+    <div class="logo">Trend <span>Watch</span></div>
+    <ul class="ul-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero">
+      <h1>Luxury on Your Wrist</h1>
+      <p>
+        Discover timeless designs and precision craftsmanship. Elevate your
+        style with Trend Watch.
+      </p>
+      <button>Explore Collection</button>
+    </div>
+  </section>
+
+  <!-- About US-->
+  <section id="about">
+    <img class="about-img" src="/images/image6.jpg" alt="About Trend Watch" />
+    <div class="about-text">
+      <h1>About Us</h1>
+      <p>
+        At <strong>Trend Watch</strong>, we blend elegance with innovation.
+        Our collection showcases both classic and modern designs, crafted for
+        those who appreciate precision, luxury, and timeless beauty.
+      </p>
+      <p>
+        From luxury watches to smart timepieces, our mission is to deliver
+        unmatched quality and customer satisfaction. Each watch tells a story
+        — a symbol of sophistication and confidence.
+      </p>
+      <button>Learn More</button>
+    </div>
+  </section>
+
+  <!-- Shop section -->
+  <section id="shop">
+    <h1>Our Top Picks</h1>
+    <div class="card-wrapper">
+      <div class="card">
+        <img src="/images/image5.webp" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="/images/image2.webp" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="/images/image3.jpg" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="/images/image4.jpg" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="/images/image1.jfif" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="/images/image6.jpg" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="/images/image7.jpg" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="/images/image8.jpg" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="card">
+        <img src="/images/image9.jpg" alt="Seveston Watch" />
+        <h3>Seveston Watch</h3>
+        <p>PKR 30,000</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact">
+    <h1>Contact Us</h1>
+    <div class="wrapper">
+      <div class="contact-form">
+        <form class="cform">
+          <input type="text" placeholder="Enter Your Name" />
+          <input type="email" placeholder="Enter Your Email" />
+          <input type="text" placeholder="Subject" />
+          <textarea placeholder="Your Message"></textarea>
+        </form>
+      </div>
+      <div class="location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.5340499917274!2d67.0626887753001!3d24.98196294038498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb340e584b891c3%3A0x29b2cbc198ba2dbd!2sAptech%20Computer%20Education%20North%20Karachi%20Center!5e0!3m2!1sen!2s!4v1763203112769!5m2!1sen!2s"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-links">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-facebook-messenger"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-pinterest"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>
+      © 2025 <span>Trend Watch</span> — Crafted with Passion. All Rights Reserved.
+    </p>
+  </footer>
+</body>
+
+</html>
